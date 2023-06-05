@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/asset/css/style.css">
+</head>
+<style>
+    .container {
+   padding: 4px;
+   background-color: gold;
+   display:flex;
+   gap:10px;
+   list-style: none;
+ }
+
+ footer>P{
+     text-align: center;
+ }
+
+ .pricing-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+    }
+    .pricing-plan {
+      max-width: 400px;
+      max-height: 400px;
+      padding: 20px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .plan-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+   li{
+    list-style: none;
+    }
+    .plan-button {
+      padding: 5px;
+      background-color: #ff6600;
+      color: #fff;
+      border-radius: 5px;
+      border: none;
+    }
+
+</style>
+
+
+<body>
+    <div class="container">
+        <li><a href="index.html">Home</a>
+        <li><a href="about.html">About</a></li>
+       <li><a href="history.html">History</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="more.html">More</a></li>
+        <li><a class="btn btn-primary" href="login.html">Login</a></li>
+        <li><a class="btn btn-warning" href="register.html">Register</a></li>
+        </div>
+
+    <!-- <div class="login">
+        <h2>Register with us</h2>
+        <form action="">
+            <div>
+                <label for="">Name:</label>
+                <input type="text" name="" id="">
+            </div>
+            <br>
+            <div>
+                <label for="">Mobile:</label>
+                <input type="text" name="" id="">
+            </div>
+            <br>
+            <div>
+                <label for="">Email:</label>
+                <input type="text" name="" id="">
+            </div>
+            <br>
+
+
+            <div>
+                <button>Register</button>
+            </div>
+            <br>
+            <br>
+            <hr> -->
+
+
+
+            <div class="login">
+                <form action="">
+                        <div class="pricing-container">
+                            <div class="pricing-plan">
+                              <div class="plan-title">Register with us</div>
+                              <ul class="plan-features">
+                                <li><label for="User-name"> Name  <input id="User-name" name="User-name" type="text" Placeholder="Enter Your Name " required /></label></li><br><br>
+                                <li><label for="User-email"> Email <input id="User-email" name="User-email" type="email"  Placeholder="Enter Your Email"required /></label></li><br><br>
+                                <li><label for="User-number"> Mobile No. <input id="User-number" name="User-numberl" type="number"  Placeholder="Enter Your Number"required /></label></li>
+                              </ul>
+                              <button class="plan-button">Register</a></button>
+                            </div>
+                        </div>
+                        </form>        
+    </div>
+    <footer> <p> copyright@2022 <a href="#">Blog Project</a></p></footer>
+</body>
+
+</html>

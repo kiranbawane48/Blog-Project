@@ -1,0 +1,122 @@
+* {
+    font-family: cursive;
+}
+
+.navbar {
+    background-color: #d2c9df;
+    padding: 10px;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a {
+    margin-left: 10px;
+}
+
+.navbar body {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.float {
+    float: right;
+}
+
+.btn {
+    padding: 5px 10px 5px 10px;
+    border-radius: 20%;
+}
+
+.btn-primary {
+    background-color: chartreuse;
+}
+
+.btn-warning {
+    background-color: yellow;
+}
+
+.margin {
+    margin-top: 10px;
+}
+
+.row {
+    display: flex;
+
+}
+
+
+
+
+
+.foo {
+    background-color: darkgray;
+    padding: 2px;
+}
+
+.kkk {
+    padding: 10px;
+
+}
+
+.lll {
+    padding: 10px;
+
+}
+
+.mmm {
+    padding: 10px;
+
+}
+
+.nnn {
+    padding: 10px;
+
+}
+
+.ooo {
+    padding: 10px;
+
+}
+
+.cc {
+    background-color: pink;
+    padding: 20px;
+}
+
+.about {
+    padding: 30px;
+    background-color: pink;
+}
+
+.para {
+    padding: 25px;
+    text-justify: auto;
+}
+
+.width {
+    width: 33.33%;
+    float: right;
+    text-justify: auto;
+
+
+}
+
+.more {
+    text-justify: auto;
+    padding: 100px;
+}
+.but{
+    background-color: yellow;
+}
+.login{
+    text-align: center;
+    table-layout: fixed;
+    border: tomato;
+}
